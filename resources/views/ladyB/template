@@ -1,0 +1,18 @@
+@if(Session::has('admin'))
+    @foreach($admins as $admin)
+        @if(Session::get('admin') == $admin->Name.":".$admin->Password )
+        	@extends('ladyB.ladyB-nav')
+        	@section('content')
+	        	
+		    @endsection
+        @endif 
+    @endforeach 
+@else
+	<div class="container" style="margin-top:300px">
+		<div class="row col-md-6 col-lg-6 col-md-offset-3 col-sm-6 col-xs-6"> 
+			<div class="alert alert-warning clearfix solid solid-text-light" style="background: deeppink; color:cyan;">
+				<p>You are not signed in as an admin. Please do so :) <a class="btn btn-success pull-right solid-two" href="{{ route('ladyB-sign-in') }}" style="background:orange;">Sign in </a></p>
+			</div>
+		</div>
+	</div>
+@endif

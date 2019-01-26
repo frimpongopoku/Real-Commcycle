@@ -1,0 +1,61 @@
+<!-- SUBMIT ARTICLE MODAL --> 
+				
+				<div class='modal fade' id='submit-article'> 
+					<div class='modal-dialog modal-md' style='border-radius:0px;'> 
+						<div class='modal-content Orange'> 
+							<div class='modal-header' style='color:white; background:cyan'> 
+								<h2 class='modal-title'>ARTICLE</h3>
+							</div>
+							<div class='modal-body Orange' > 
+							
+							
+								<center>
+									<p>Do you have any interesting thing that is worth sharing? Plug it in the box below, so that It may be featured on commcycle. 
+									</p>
+									
+								</center>
+								
+								
+								<div class='col-lg-12 col-md-12 col-sm-12 col-xs-12 '> 
+									<div class='form-group'> 
+										<textarea  class='form-control pink-border' placeholder='Article *' rows='8'></textarea>
+									</div>
+								</div>
+
+								<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12 '> 
+									<div class='form-group'> 
+										<input type='name' class='form-control pink-border' placeholder='Name *'>
+									</div>
+								</div>
+								
+								<div class='col-lg-6 col-md-6 col-sm-6 col-xs-12 '> 
+									<div class='form-group'> 
+										<input type='email' class='form-control pink-border' placeholder='Email *'>
+									</div>
+								</div>
+								
+								<div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'> 
+									<div class='form-group Orange'> 
+										<input type='name' class='form-control pink-border' placeholder='Postions --optional'>
+									</div>
+									<small>This part is totally optional. It requires you to attach any postion you hold, or anything you would like to be attached to your post. Example: Pongolisa Founder of Rubbers and Boxes| CEO of Game | Patner of Pick and Paym|
+ Adamu's Girlfriend</small>
+								
+								</div>
+
+
+								
+							</div> 
+							<div class='clearfix'> 
+							</div>
+							<div class='modal-footer' style='background:#585858'> 
+								<button data-dismiss='modal' class='btn btn-danger pull-right solid-two-light'>	Hide </button>	 
+								
+								<button type='submit' class='btn btn-success pull-right solid-two-light'>	Send </button>	 
+								
+								
+							</div> 
+					
+						</div> 
+					</div> 
+				</div>					
